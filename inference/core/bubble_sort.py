@@ -4,5 +4,6 @@ def sorter(arr):
             if arr[j] > arr[j + 1]:
                 temp = arr[j]
                 arr[j] = arr[j + 1]
+ # test change
                 arr[j + 1] = temp
     return arr
