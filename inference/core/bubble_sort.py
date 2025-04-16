@@ -1,8 +1,5 @@
 def sorter(arr):
-    for i in range(len(arr)):
-        for j in range(len(arr) - 1):
-            if arr[j] > arr[j + 1]:
-                temp = arr[j]
-                arr[j] = arr[j + 1]
-                arr[j + 1] = temp
+    # Timsort is a hybrid sorting algorithm derived from merge sort and insertion sort
+    # and is efficient in practice for many types of real-world data.
+    arr.sort()
     return arr
