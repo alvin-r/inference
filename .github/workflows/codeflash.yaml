@@ -43,4 +43,4 @@ jobs:
         run: |
           pip install git+https://github.com/codeflash-ai/codeflash.git@codeflash-trace-decorator
       - name: ⚡️Codeflash Optimization
-        run: codeflash --benchmark
+        run: codeflash --benchmark --verbose
